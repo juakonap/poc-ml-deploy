@@ -10,7 +10,7 @@ CORS(app)
 # main index page route
 @app.route('/')
 def home():
-    return '<h1> Bienvenido al demo de ML</h1>'
+    return '<h1> Bienvenido al demo de ML de hoy en desarrollo</h1>'
 
 
 @app.route('/predict',methods=['POST'])
