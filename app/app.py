@@ -13,7 +13,7 @@ def home():
     return '<h1> Bienvenido al demo de ML</h1>'
 
 
-@app.route('/predict',methods=['POST'])
+@app.route('/predict',methods=['GET', 'POST'])
 def predict():
     import pickle
     model = pickle.load(open('data/marriage_age_predict_model.ml', 'rb'))
