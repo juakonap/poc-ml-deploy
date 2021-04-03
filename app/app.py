@@ -26,4 +26,11 @@ def predict():
                            ]])
     return str(round(predicted_age_of_marriage[0],2))
 
+<<<<<<< HEAD
+=======
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+>>>>>>> dev
 #http://127.0.0.1:5000/predict?gender=0&religion=10&caste=2&mother_tongue=2&country=3&height_cms=170
